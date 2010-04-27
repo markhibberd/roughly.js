@@ -8,11 +8,7 @@ var roughly = (function (self) {
     var years = 365 * days;
     
     function s(start, unit, message) {
-        return {
-            start: start,
-            unit: unit, 
-            message: message
-        };
+        return { start: start, unit: unit, message: message };
     }
     
     var slices = [
